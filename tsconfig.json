@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "classic",
+        "target": "ES5",
+        "outDir": "dist",  
+        "checkJs": false
+    },
+}

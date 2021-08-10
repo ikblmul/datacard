@@ -1,0 +1,25 @@
+{
+  "name": "data-table-plugind",
+  "version": "1.0.0",
+  "description": "Data table But Card",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ejs": "^3.0.7",
+    "@types/jquery": "^3.5.5",
+    "@types/video.js": "^7.3.11",
+    "build": "^0.1.4",
+    "path-browserify": "^1.0.1",
+    "ts-loader": "^8.0.13",
+    "typescript": "^4.1.3",
+    "webpack": "^5.11.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.3.1"
+  }
+}
