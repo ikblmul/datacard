@@ -25,7 +25,7 @@ export default class DataCard {
   loading = new loading(this.c);
   stackCount = $("#count_stack_info");
 
-  constructor(public c: JQuery<HTMLElement>) {}
+  constructor(public c: JQuery<HTMLElement>) { }
 
   ajax(url = null, search = null, draw = 1) {
     const data = {};
@@ -135,6 +135,9 @@ export default class DataCard {
     content = Card(this.data, 0);
 
     this.c.html(content.toString());
+
+    // Trigger Event Locally
+
   }
 
   updateUrl(url) {

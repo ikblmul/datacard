@@ -3,7 +3,6 @@ import RegisterEvent from "./event/Register";
 import RequestAJAX from "./http/request";
 
 declare var CardElement: String;
-declare var CardElement: String;
 
 // setting up ajax header alongside token
 RequestAJAX.setup();
